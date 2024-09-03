@@ -1,0 +1,187 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #b5c4d445;
+}
+
+:root {
+    --main-bg-color: #F0F8FF;
+    --link-color: #1e1e1e;
+    --link-hover-color: #444;
+    --authorization: #0aa2e3a5;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    padding: 10px 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 30px;
+}
+
+.center-link {
+    margin-left: 400px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.center-link a {
+    margin-left: 20px;
+
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.auth {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.auth a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.auth a:hover {
+    color: var(--link-hover-color);
+}
+
+
+.card-container {
+    height: 600px;
+    background-color: #ADD8E6;
+    padding: 20px 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    height: 150px;
+    width: 220px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+
+
+.authorization {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+
+}
+
+.authorization input {
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 5px;
+    outline: none;
+}
+
+.authorization button {
+    border-radius: 5px;
+
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.authorization p {
+    margin: 10px 0px;
+}
+
+.authorization a {
+    color: var(--authorization);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.authorization .msg {
+    border: 2px dashed #ab2626;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.registration {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+
+}
+
+.registration input {
+    border-radius: 5px;
+
+    margin: 5px 0px;
+    padding: 5px;
+    outline: none;
+}
+
+.registration button {
+    border-radius: 5px;
+
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+select {
+    border-radius: 5px;
+
+}
+
+.registration p {
+    margin: 10px 0px;
+}
+
+.registration a {
+    color: var(--authorization);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.registration .msg {
+    border: 2px dashed #ab2626;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.registration select {
+    margin: 5px 0px;
+    padding: 5px;
+    outline: none;
+}
