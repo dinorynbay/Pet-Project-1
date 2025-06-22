@@ -1,13 +1,13 @@
-В этом проекте было разработано клиент - серверное приложение для изучения английского языка. 
-Основные функции сайта:
-1. Регистрация (преподаватель или ученик). 
-2. Авторизация.
-3. Видеоролики под уровень пользователя (a1 - b2).
-4. Тестирование уровня английского языка (20 вопросов от a1 до b2).
-5. Уроки под уровень пользователя с тестированием знании (5 вопросов).
-6. Словарь для изучения слов.
-7. Видеозвонок с преподавателем.
-8. Новости на английском языке.
-9. Заметки для исправления текста и предложении по тексту (CRUD).
-10. Карточки для запоминания слов (CRUD).
-11. Список дел для мониторинга прогресса пользователя (CRUD).
+In this project, a client-server web application was developed for learning English.
+The main features of the website include:
+1. Registration as a teacher or student
+2. User authentication (login)
+3. Video content adapted to the user's English level (A1–B2)
+4. English level test (20 questions covering A1 to B2)
+5. Lessons by level with knowledge testing (5 questions per lesson)
+6. Built-in dictionary for learning new words
+7. Video call functionality with a teacher
+8. News feed in English
+9. Notes section for text corrections and suggestions (CRUD functionality)
+10. Flashcards for memorizing vocabulary (CRUD)
+11. To-do list for tracking learning progress (CRUD)
